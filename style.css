@@ -1,9 +1,9 @@
 html{
-    font-family:Roboto, 'Times New Roman', Times, serif;
+    font-family: Roboto, 'Times New Roman', Times, serif;
     background: #1F2937;
     color: white;
 }
-
+/* Header */
 .header{
     display: flex;
     align-items: center;
@@ -23,5 +23,19 @@ html{
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+
     
+}
+
+.first{
+    display: flex;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts button{
+    flex-shrink: 0;
 }
