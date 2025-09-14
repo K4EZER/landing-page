@@ -80,10 +80,12 @@ html{
 /* Second Div */
 .second{
     display: flex;
+    flex-flow: column wrap;
     background-color: white;
     color: #1F2937;
-    justify-content: center;
+    align-items: center;
     padding: 10px;
+    width: 100%;
 }
 
 .second h2{
@@ -94,11 +96,26 @@ html{
 .image-wrap{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100px;
+}
+
+.wrapper p{
+    text-align: center;
 }
 
 .box{
-    width: 100px;
-    height: 100px;
-
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    outline: 3px solid #3882F6;
 }
 
