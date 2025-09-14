@@ -91,7 +91,7 @@ html{
     font-weight: 900;
 }
 
-.image-wrapper{
+.image-wrap{
     display: flex;
     flex-flow: row wrap;
 }
