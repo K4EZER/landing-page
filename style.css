@@ -8,7 +8,7 @@ html{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 0px 100px;
+    margin: 0px 300px;
 }
 
 .header h4{
@@ -28,7 +28,7 @@ html{
 .first{
     display: flex;
     flex-direction: row;
-    padding: 0px 100px;
+    margin: 0px 300px;
 }
 
 .texts{
